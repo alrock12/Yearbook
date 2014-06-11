@@ -36,6 +36,7 @@ body{
 	text-align:right;
 	transition:all 750ms;
 	color:white;
+	width:250px;
 	background-color: black;
 	border-radius: 10px;
 	display:inline-block;
@@ -56,7 +57,7 @@ body{
 .pic:hover>.description{
 	transform: rotateZ(5deg) translateX(20%) translateY(10%) scale(1.1,1.1);
 	-moz-transform: rotateZ(5deg) translateX(20%) translateY(10%) scale(1.1,1.1);
-	-webkit-transform: rotateZ(-15deg) translateX(0%) translateY(10%) scale(1.1,1.1);
+	-webkit-transform: rotateZ(0deg) translateX(75%) translateY(10%) scale(1.1,1.1);
 
 	z-index:100;
 }
